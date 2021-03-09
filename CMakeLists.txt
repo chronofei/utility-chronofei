@@ -16,3 +16,5 @@ endif()
 
 add_executable(readCSV src/readCSV.cpp)
 # target_link_libraries(readCSV ${EXAMPLE_LIBRARIES})
+
+add_executable(convert src/convert.cpp)
